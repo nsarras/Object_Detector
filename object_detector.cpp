@@ -1,5 +1,5 @@
 QueueHandle_t qh = 0;
-
+// OBJECT DETECTOR utilizing Pixy Camera to SJOne board through UART communication
 // Task is responsible for converting read bytes into an identifiable object
 class object_identifier_task:public scheduler_task
 {
